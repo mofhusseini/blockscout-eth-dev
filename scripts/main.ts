@@ -87,7 +87,7 @@ const main = async () => {
   console.log("USDC Balance is ", utils.formatUnits(usdcBalanceAfter, 6))
   console.log("ETH balance is ", utils.formatEther(ethBalanceAfter))
 
-  console.log("------- Balances of recipient before -------")
+  console.log("------- Balances of recipient after -------")
   const ethBalanceReceipientAfter = await provider.getBalance(addresses.recipient)
   console.log("ETH balance is ", utils.formatEther(ethBalanceReceipientAfter), "\n\n")
 
